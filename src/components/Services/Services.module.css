@@ -1,0 +1,33 @@
+.container {
+    margin: 5% auto;
+    height: auto;
+    text-align: center;
+}
+.container hr {
+    margin: 3% auto;
+    width: 15%;
+}
+.services-row {
+    margin: 0 auto;
+    padding-top: 4%;
+}
+.service-card h3 {
+    margin: 2% 0;
+}
+.service-card h3 { 
+    font-weight: 600;
+}
+.service-card p {
+    padding: 3% 10%;
+}
+.service-card:last-child {
+    margin: 0 auto;
+    margin-bottom: 2%;
+} 
+
+/* responsive */
+@media (max-width: 576px) {
+    .about-text p {
+        max-width: 90%;
+    }
+}

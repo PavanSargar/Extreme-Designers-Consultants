@@ -1,0 +1,32 @@
+.brand-text {
+  font-weight: 700;
+}
+.brand-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-text a:hover {
+  color: inherit;
+}
+.nav-link {
+  margin: 20px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+}
+
+.navbar {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+}
+
+.nav-link a {
+  all: unset;
+  display: block;
+
+}
+.nav-link a:hover {
+  color: inherit;
+}

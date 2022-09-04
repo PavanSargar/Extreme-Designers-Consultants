@@ -1,0 +1,12 @@
+.img1 img {
+    height: auto;
+    width: 75%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}

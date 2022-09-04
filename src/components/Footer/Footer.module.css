@@ -1,0 +1,46 @@
+footer {
+  padding: 5% 0 0.1% 0;
+  height: auto;
+  text-align: center;
+  color: #fefefe;
+  background: #232526; 
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); 
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); 
+}
+footer hr {
+  margin: 3% 0;
+}
+.contact,
+.title {
+  text-align: left;
+}
+.contact p,
+.contact a,
+.title p,
+.contact label {
+  color: #b3aeae;
+}
+.title h4 {
+  font-weight: 600;
+}
+.contact a:last-child {
+  margin-left: 2%;
+}
+.copyright {
+  margin: 3% auto;
+}
+.copyright a {
+  color: inherit;
+}
+
+.copyright a:hover {
+  color: inherit;
+}
