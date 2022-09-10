@@ -21,7 +21,7 @@
 }
 .slider-container img {
   margin: 0 auto;
-  height: 400px;
+  height: auto;
   width: 400px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
@@ -29,7 +29,7 @@
 /* responsive */
 @media (max-width: 576px) {
   .slider-container img {
-    height: 300px;
+    height: auto;
     width: 300px;
   }
 }
