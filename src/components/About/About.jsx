@@ -28,8 +28,8 @@ function About(props) {
         <Col sm={8} className={styles["about-text"]}>
           <h3>Mayur Tade</h3>
           <p>
-            I'm Mayur Tade (Structural Engineer), founder of Extreme Designers &
-            Consultants. Our vision is to provide best quality of structures at
+            I'm Mayur Tade <b>(Chairman Indian Society of Structural Engineers Association (ISSE), Baramati)</b>, founder of<b> Extreme Designers &
+            Consultants</b>. Our vision is to provide best quality of structures at
             affordable prices with long-term durability.
           </p>
           <Button variant="outline-dark">
