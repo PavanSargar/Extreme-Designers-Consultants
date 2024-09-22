@@ -20,7 +20,7 @@ function Portfolio(props) {
       <hr />
 
       <Container className={styles["slider-container"]}>
-        <Carousel style={{ height: "80vh", width: "100%" }} touch>
+        <Carousel className={styles.carousel} touch>
           {clientImages.map((img, i) => (
             <Carousel.Item key={i}>
               <Image
@@ -38,15 +38,11 @@ function Portfolio(props) {
       </Container>
 
       <Container className={styles["slider-container"]}>
-        <Carousel style={{ height: "80vh", width: "100%" }} touch>
+        <Carousel className={styles.carousel} touch>
           {images.map((img, i) => (
             <Carousel.Item key={i}>
               <Image
-                className={``}
-                style={{
-                  height: "80vh",
-                  width: "auto",
-                }}
+                className={styles.carouselImage}
                 src={img.imgURL}
                 alt={`Portfolio item ${i + 1}`}
               />
@@ -56,7 +52,7 @@ function Portfolio(props) {
       </Container>
 
       <Container className={styles["slider-container"]}>
-        <Carousel style={{ height: "80vh", width: "100%" }} touch>
+        <Carousel className={styles.carousel} touch>
           {newImages.map((img, i) => (
             <Carousel.Item key={i}>
               <Image

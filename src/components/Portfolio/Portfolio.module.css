@@ -33,3 +33,27 @@
     width: 300px;
   }
 }
+
+/* ... existing styles ... */
+
+.carousel {
+  height: 80vh;
+  width: 100%;
+}
+
+.carouselImage {
+  height: 80vh;
+  width: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    height: 400px;
+  }
+
+  .carouselImage {
+    height: 400px;
+    width: 100%;
+  }
+}

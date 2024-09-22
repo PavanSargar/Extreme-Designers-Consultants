@@ -22,8 +22,8 @@ const About = () => {
           </Col>
           <Col className={styles["description"]}>
             <p>
-              I'm Mayur Tade (Structural Engineer), founder of Extreme Designers
-              & Consultants. Our vision is to provide best quality of structures
+              I'm Mayur Tade <b>(Chairman Indian Society of Structural Engineers Association (ISSE), Baramati)</b>, founder of<b> Extreme Designers &
+              Consultants</b>. Our vision is to provide best quality of structures
               at affordable prices with long-term durability.
             </p>
             <div className={styles.education}>
